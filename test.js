@@ -1,29 +1,4 @@
-const chai = require("chai");
 const expect = chai.expect;
-const {
-  returnEmptyArray,
-  returnEmptyString,
-  returnZeroNumber,
-  returnEmptyObject,
-  returnAbcString,
-  returnSumOfTen,
-  subtraction,
-  multiplication,
-  division,
-  returnArray,
-  returnFirstIndex,
-  returnSecondIndex,
-  returnArrayLength,
-  arraySum,
-  arraySubtraction,
-  multiplicationArray,
-  divisionArray,
-  oddArray,
-  evenArray,
-  returnFruits,
-} = require("./functions");
-
-console.log(returnEmptyString());
 
 describe("return an empty string", function () {
   it("should return an empty string", function () {
